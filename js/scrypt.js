@@ -6,48 +6,48 @@ document.getElementById("username").innerText = username;
  let balance = 5000;
 balanceAnimation (balance);
 let  cardImg = [[
-    "./image/cards/Clubs/clubsJack.png",
-    "./image/cards/Clubs/clubsQeen.png",
-    "./image/cards/Clubs/clubsKing.png",
-    "./image/cards/Clubs/clubs6.png",
-    "./image/cards/Clubs/clubs7.png",
-    "./image/cards/Clubs/clubs8.png",
-    "./image/cards/Clubs/clubs9.png",
-    "./image/cards/Clubs/clubs10.png",
-    "./image/cards/Clubs/clubsAce.png"
+    "../image/cards/Clubs/clubsJack.png",
+    "../image/cards/Clubs/clubsQeen.png",
+    "../image/cards/Clubs/clubsKing.png",
+    "../image/cards/Clubs/clubs6.png",
+    "../image/cards/Clubs/clubs7.png",
+    "../image/cards/Clubs/clubs8.png",
+    "../image/cards/Clubs/clubs9.png",
+    "../image/cards/Clubs/clubs10.png",
+    "../image/cards/Clubs/clubsAce.png"
   ],
   [
-    "./image/cards/diamonds/diamondsJack.png",
-    "./image/cards/diamonds/diamondsQeen.png",
-    "./image/cards/diamonds/diamondsKing.png",
-    "./image/cards/diamonds/diamonds6.png",
-    "./image/cards/diamonds/diamonds7.png", 
-    "./image/cards/diamonds/diamonds8.png",
-    "./image/cards/diamonds/diamonds9.png",
-    "./image/cards/diamonds/diamonds10.png",
-    "./image/cards/diamonds/diamondsAce.png"
+    "../image/cards/diamonds/diamondsJack.png",
+    "../image/cards/diamonds/diamondsQeen.png",
+    "../image/cards/diamonds/diamondsKing.png",
+    "../image/cards/diamonds/diamonds6.png",
+    "../image/cards/diamonds/diamonds7.png", 
+    "../image/cards/diamonds/diamonds8.png",
+    "../image/cards/diamonds/diamonds9.png",
+    "../image/cards/diamonds/diamonds10.png",
+    "../image/cards/diamonds/diamondsAce.png"
   ],
   [
-    "./image/cards/hearts/heartJack.png",
-    "./image/cards/hearts/heartQeen.png",
-    "./image/cards/hearts/heartKing.png",
-    "./image/cards/hearts/heart6.png",
-    "./image/cards/hearts/heart7.png", 
-    "./image/cards/hearts/heart8.png",
-    "./image/cards/hearts/heart9.png",
-    "./image/cards/hearts/heart10.png",
-    "./image/cards/hearts/heartAce.png"
+    "../image/cards/hearts/heartJack.png",
+    "../image/cards/hearts/heartQeen.png",
+    "../image/cards/hearts/heartKing.png",
+    "../image/cards/hearts/heart6.png",
+    "../image/cards/hearts/heart7.png", 
+    "../image/cards/hearts/heart8.png",
+    "../image/cards/hearts/heart9.png",
+    "../image/cards/hearts/heart10.png",
+    "../image/cards/hearts/heartAce.png"
   ],
   [
-    "./image/cards/spades/spadesJack.png",
-    "./image/cards/spades/spadesQeen.png",
-    "./image/cards/spades/spadesKing.png",
-    "./image/cards/spades/spades6.png",
-    "./image/cards/spades/spades7.png", 
-    "./image/cards/spades/spades8.png",
-    "./image/cards/spades/spades9.png",
-    "./image/cards/spades/spades10.png",
-    "./image/cards/spades/spadesAce.png"
+    "../image/cards/spades/spadesJack.png",
+    "../image/cards/spades/spadesQeen.png",
+    "../image/cards/spades/spadesKing.png",
+    "../image/cards/spades/spades6.png",
+    "../image/cards/spades/spades7.png", 
+    "../image/cards/spades/spades8.png",
+    "../image/cards/spades/spades9.png",
+    "../image/cards/spades/spades10.png",
+    "../image/cards/spades/spadesAce.png"
   ]];
   let arryValue = [2,3,4,6,7,8,9,10,11];
   let frontCard = ["cardFront1User","cardFront2User","cardFront3User","cardFront1Computer","cardFront2Computer","cardFront3Computer"];
@@ -182,4 +182,5 @@ function balanceAnimationMinus(bet,balance){
         document.getElementById('balance').innerHTML = `Ваш баланс: <br> ${balance}₴`;
      }, countStep);
 }
+
 fun
