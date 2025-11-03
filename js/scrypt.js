@@ -6,15 +6,15 @@ document.getElementById("username").innerText = username;
  let balance = 5000;
 balanceAnimation (balance);
 let  cardImg = [[
-    "image/cards/Clubs/clubsJack.png",
-    "image/cards/Clubs/clubsQeen.png",
-    "image/cards/Clubs/clubsKing.png",
-    "image/cards/Clubs/clubs6.png",
-    "image/cards/Clubs/clubs7.png",
-    "image/cards/Clubs/clubs8.png",
-    "image/cards/Clubs/clubs9.png",
-    "image/cards/Clubs/clubs10.png",
-    "image/cards/Clubs/clubsAce.png"
+    "/cardGame/image/cards/Clubs/clubsJack.png",
+    "/cardGame/image/cards/Clubs/clubsQeen.png",
+    "/cardGame/image/cards/Clubs/clubsKing.png",
+    "/cardGame/image/cards/Clubs/clubs6.png",
+    "/cardGame/image/cards/Clubs/clubs7.png",
+    "/cardGame/image/cards/Clubs/clubs8.png",
+    "/cardGame/image/cards/Clubs/clubs9.png",
+    "/cardGame/image/cards/Clubs/clubs10.png",
+    "/cardGame/image/cards/Clubs/clubsAce.png"
   ],
   [
     "image/cards/diamonds/diamondsJack.png",
@@ -184,4 +184,5 @@ function balanceAnimationMinus(bet,balance){
 }
 
 fun
+
 
